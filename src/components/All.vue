@@ -1,5 +1,4 @@
 <script setup lang="ts" generic="T">
-import { computed } from 'vue';
 import { useKeyOf, type KeyOfInput } from '../composables/use-key-of';
 
 export interface AllProps<T> {
